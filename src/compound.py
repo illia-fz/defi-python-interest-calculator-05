@@ -6,3 +6,4 @@ def compound(principal: float, rate: float, periods: int) -> float:
 if __name__ == "__main__":
     p, r, n = 1000.0, 0.05, 5
     print(f"Compound amount: {compound(p, r, n):.2f}")
+# Added a note about compound interest
